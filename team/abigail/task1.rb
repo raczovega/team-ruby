@@ -2,7 +2,7 @@ puts "Enter a number"
 num=gets.chomp.to_i
 num2=num
 
-#positive or negative test
+#positive or negative verification
 if (num<0) 
     num=num/-1 #becomes positive for counting digits
     num2=-1*num #remains sign
