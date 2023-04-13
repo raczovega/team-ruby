@@ -11,7 +11,7 @@ if num > 0
 elsif num < 0
   value = "negative"
 else
-  value = "No valid"
+  value = "It's zero"
 end
 
 # Count the number of digits in the absolute value of the number
