@@ -1,6 +1,5 @@
 # Generate a random integer between 0 and 100
 answer = rand(0...100)
-puts "#{answer}"
 
 i = 0 
 
