@@ -5,7 +5,7 @@ class SheatFish < Fish
   
   def initialize(whiscker_length = nil)
     super()
-    @whisker_length = rand(20...50)
+    @whiscker_length = rand(20...50)
   end
   
   def to_s
