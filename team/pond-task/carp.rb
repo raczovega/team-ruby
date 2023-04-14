@@ -9,7 +9,7 @@ class Carp < Fish
     end
     
     def to_s
-      "Carp with weight #{@weight} and color #{@color}"
+      "Carp with weight #{@weight} kg and color #{@color}"
     end
   end
   

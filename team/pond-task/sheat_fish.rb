@@ -9,6 +9,6 @@ class SheatFish < Fish
   end
   
   def to_s
-    "SheatFish with weight #{@weight} and whisker length #{@whiscker_length}"
+    "SheatFish with weight of #{@weight} kg and whisker length of #{@whiscker_length} cm"
   end
 end

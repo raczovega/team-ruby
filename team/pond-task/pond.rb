@@ -11,8 +11,14 @@ class Pond
       updateState
     end
     
-    def lostFish(fish)
-      @capacity.delete(fish)
+    def lostFish(fish_type)
+      fish_to_delete = @capacity.find { |fish| fish.class.to_s == fish_type }
+      if fish_to_delete
+        @capacity.delete(fish_to_delete)
+        puts "#{fish_to_delete.to_s} was lost from the pond."
+      else
+        puts "There are no #{fish_type} in the pond."
+      end
       updateState
     end
     

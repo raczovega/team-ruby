@@ -36,15 +36,11 @@ def add_fish_menu
 end
 
 def catch_carp
-    carp = Carp.new()
-    @pond.lostFish(carp)
-    puts "Carp with color #{carp.color} and weight #{carp.weight} it was catched from the pond"
+    @pond.lostFish("Carp")
 end
 
 def catch_sheat_fish
-    sheat_fish = SheatFish.new()
-    @pond.lostFish(sheat_fish)
-    puts "A SheatFish with weight #{sheat_fish.weight} and whiscker length #{sheat_fish.whiscker_length} it was catched from the pond."
+    @pond.lostFish("SheatFish")
 end
 #
 def catch_fish_menu
