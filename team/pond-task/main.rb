@@ -35,6 +35,35 @@ def add_fish_menu
     end
 end
 
+def catch_carp
+    carp = Carp.new()
+    @pond.lostFish(carp)
+    puts "Carp with color #{carp.color} and weight #{carp.weight} it was catched from the pond"
+end
+
+def catch_sheat_fish
+    sheat_fish = SheatFish.new()
+    @pond.lostFish(sheat_fish)
+    puts "A SheatFish with weight #{sheat_fish.weight} and whiscker length #{sheat_fish.whiscker_length} it was catched from the pond."
+end
+#
+def catch_fish_menu
+    puts "\nChoose fish type:"
+    puts "1. Carp"
+    puts "2. SheatFish"
+
+    fish_type = gets.chomp.to_i
+
+    case fish_type
+    when 1
+        catch_carp
+    when 2
+        catch_sheat_fish
+    else
+        puts "Invalid choice. Please choose again."
+    end
+end
+
 loop do
     puts "\nMenu:"
     puts "1. View capacity"
@@ -62,4 +91,3 @@ loop do
     end
 end
 
-#to-do catch the fish
