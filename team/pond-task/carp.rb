@@ -7,5 +7,9 @@ class Carp < Fish
       super()
       @color = color || @@colors.sample
     end
+    
+    def to_s
+      "Carp with weight #{@weight} and color #{@color}"
+    end
   end
   
