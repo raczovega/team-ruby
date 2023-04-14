@@ -28,3 +28,5 @@ end
 
 if (i==10) && (num!=random)
     puts "You have exceeded the number of attempts. The answer is #{random}."
+    
+end
