@@ -9,7 +9,7 @@ while (i<3)
 
   idx=row_sort.index(matrix[0][i])
   j=0
-  
+
   while (j<3)
     matrix_sort[j][idx]=matrix[j][i]
     j+=1
@@ -19,6 +19,6 @@ while (i<3)
 end
 
 puts "Initial matrix:\n"
-p   matrix
+puts matrix.to_a.map(&:inspect)
 puts "Sort matrix:\n"
-p   matrix_sort
+puts matrix_sort.to_a.map(&:inspect)
