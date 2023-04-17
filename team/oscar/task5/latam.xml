@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+  <country name="Argentina">
+    <city>Buenos Aires</city>
+    <city>Cordoba</city>
+    <city>La Plata</city>
+  </country>
+  <country name="Brazil">
+    <city>Rio de Janeiro</city>
+    <city>Sao Paulo</city>
+    <city>Brasilia</city>
+  </country>
+  <country name="Chile">
+    <city>Santiago</city>
+    <city>Valparaiso</city>
+    <city>Concepción</city>
+  </country>
+  <country name="Mexico">
+    <city>Mexico City</city>
+    <city>Guadalajara</city>
+    <city>Monterrey</city>
+  </country>
+</countries>
