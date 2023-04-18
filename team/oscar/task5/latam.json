@@ -1,0 +1,21 @@
+{
+    "countries": [
+      {
+        "name": "Argentina",
+        "cities": ["Buenos Aires", "Cordoba", "La Plata"]
+      },
+      {
+        "name": "Brazil",
+        "cities": ["Rio de Janeiro", "Sao Paulo", "Brasilia"]
+      },
+      {
+        "name": "Chile",
+        "cities": ["Santiago", "Valparaiso", "Concepcion"]
+      },
+      {
+        "name": "Mexico",
+        "cities": ["Mexico City", "Guadalajara", "Monterrey"]
+      }
+    ]
+  }
+  
