@@ -1,11 +1,17 @@
+#Load gem titleize 
+require 'titleize'
+# Load the JSON library
 require 'json'
 
-file = File.read('latam.json')
-data = JSON.parse(file)
+# Read the entire file into memory as a string
+file = File.read('latam.json') 
+#converting a JSON object to a hash
+data = JSON.parse(file) 
 
 puts "Enter a city name:"
-city = gets.chomp.capitalize.to_s
+city = gets.chomp.titleize
 
+#Initialize a variable to hold the country name
 country = nil
 
 # Loop through each country to find the city entered by the user

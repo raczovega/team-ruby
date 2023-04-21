@@ -10,6 +10,16 @@ else
 end
 
 #Calculate century by checking the residue of the given year
+century = (year / 100) + (year % 100 == 0 ? 0 : 1)
+
+#Print output
+puts "#{year} belongs to the #{century} century"
+
+
+
+
+
+
 
 =begin
 if year % 100 == 0
@@ -18,7 +28,3 @@ else
   century = (year / 100) + 1 
 end
 =end
-century = (year / 100) + (year % 100 == 0 ? 0 : 1)
-
-#Print output
-puts "#{year} belongs to the #{century} century"
